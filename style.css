@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins';
+}
+/* Bonus */
+::selection {
+  background: #111;
+  color: #fff;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  font-size: 5rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222;
+  /* reflection */
+  -webkit-box-reflect: below -30px linear-gradient(transparent, transparent, #0009);
+}
